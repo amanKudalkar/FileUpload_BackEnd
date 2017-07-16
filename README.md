@@ -15,6 +15,7 @@ Change the below properties as per your need.
 spring.datasource.url = jdbc:oracle:thin:@localhost:1521:orcl  
 spring.datasource.username = AdityaBirla  
 spring.datasource.password = 123456  
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.OracleDialect  
 
 * tomcat  
 server.port=8800  
@@ -35,5 +36,10 @@ spring.mail.properties.mail.smtp.writetimeout=5000
 adityaBirla.folder=F:\\files\\    --- (Documents to be uploaded in this folder)  
 
 * angular app adddress  
-adityaBirla.angularAppAddress=http://192.168.0.103:4200  --- (FrontEnd app running ip and port number)  
+adityaBirla.angularAppAddress=http://192.168.0.103:4200  --- (FrontEnd app running ip and port number) 
+
+## How to run the project ? 
+Open file src\main\java\com\adityaBirla\UserFrontApplication.java  
+Run as java application
+
 
